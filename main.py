@@ -526,4 +526,4 @@ def callback_panel(call):
             return
         # start add_proofs flow: collect photos, user sends photos, then /done
         set_pending(user.id, {"action":"add_proofs", "target":target, "buffer":{"files":[]}})
-        bot.send_message(user.
+        bot.send_message(user.id, "Привет, я бот")
